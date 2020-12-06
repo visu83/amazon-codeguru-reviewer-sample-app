@@ -26,8 +26,8 @@ jobs:
     - name: Checkout the action from a private repository
       uses: actions/checkout@v2
       with:
-        repository: aws-actions/codeguru-reviewer
-        ref: refs/heads/main
+        repository: nvaidya1/amazon-codeguru-reviewer-sample-app
+        ref: refs/heads/master
         ssh-key: ${{ secrets.SSH_KEY }}
         path: ./.github/actions/codeguru-reviewer
 
