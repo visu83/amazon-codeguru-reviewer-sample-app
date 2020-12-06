@@ -39,7 +39,7 @@ jobs:
         aws-region: us-west-2 #AWS region where you want to use CodeGuru
 
     - name: AWS CodeGuru Reviewer Security Scanner
-      uses: ./.github/actions/codeguru-reviewer
+      uses: actions/codeguru-reviewer
       with:
         src-root: src/main/java # Java source code root
         build-root: target # build artifact(s) directory
