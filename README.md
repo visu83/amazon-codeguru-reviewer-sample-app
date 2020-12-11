@@ -4,6 +4,7 @@ This application is intended as a test case for Amazon CodeGuru Reviewer, a serv
 
 To get started with CodeGuru Reviewer, follow these steps. This is a test4 text.
 
+## TEAM
 ## Try CodeGuru Reviewer
 
 ### Step 1: Fork this repo
